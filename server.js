@@ -9,7 +9,7 @@ const app = express();
 // local files
 const notFoundHandler = require('./handlers/404');
 const errorHandler = require('./handlers/500');
-const stamper = require('./midleware/stamper');
+const stamper = require('./middleware/stamper');
 
 // routes
 app.get('/', renderHome);
